@@ -28,7 +28,7 @@ const GoStumble = (auth) => new Promise((resolve, reject) => {
 (async () => {
 
   console.log(`Trophy And Crown Hack Safe! [ReEdit]
-By : ${chalk.bold('Rangga')} - Credit : Rangga Store
+By : ${chalk.bold('Rangga')} - Credit : Rangga Store 
 `);
 
   const auth = rs.question('Enter Authentication Code! : ');
@@ -39,7 +39,7 @@ By : ${chalk.bold('Rangga')} - Credit : Rangga Store
     const result = await GoStumble(auth);
     if (!result) {
 
-      console.log(chalk.white(`\r[ ${moment().format('HH:mm:ss')} ] Authentication Code Not Valid`));
+      console.log(chalk.red(`\r[ ${moment().format('HH:mm:ss')} ] Authentication Code Not Valid`));
       break;
 
     } else if (result.includes('User')) {
@@ -51,10 +51,10 @@ By : ${chalk.bold('Rangga')} - Credit : Rangga Store
       const crown = data.User.Crowns;
 
 console.log(chalk.bgBlack(`\r[ ${moment().format('HH:mm:ss')} ] ${chalk.red(`User : ${username}`)} | ${chalk.yellow(`Trophy : ${trophy}`)} | ${chalk.green(`Crown : ${crown}`)}`));
-      await sleep(5000);
+      await sleep(4500);
 
-    } else if (result == 'Kasian Kena Ban') {
-      console.log(chalk.bgRed(`Tobatt Akun Lu Dah Kena Ban`));
+    } else if (result == 'Kasian') {
+      console.log(chalk.bgRed(`Akun Lu Dah Kena Ban Tobattt!!`));
      break;
     }
   }
