@@ -50,12 +50,13 @@ By : ${chalk.bold('Rangga')} - Credit : Rangga Store
       const trophy = data.User.SkillRating;
       const crown = data.User.Crowns;
 
-console.log(chalk.bgBlack(`\r[ ${moment().format('HH:mm:ss')} ] 
-> ${chalk.red(`User : ${username}`)} 
-> ${chalk.yellow(`Trophy : ${trophy}`)}
-> ${chalk.green(`Crown : ${crown}`)}
-> ${(`Status : Success !`)}`));
-      await sleep(4500);
+      console.log(chalkRainbow(`\r
+      -  [${moment().format('HH:mm:ss')}]  -
+      >  ${(`Nama  : ${username}`)}  
+      >  ${(`Piala  : ${trophy}`)}  
+      >  ${(`Mahkota  : ${crown}`)}
+      >  ${(`Status : Success !`)}`));
+            await sleep(2000);
 
     } else if (result == 'Kasian') {
       console.log(chalk.bgRed(`Akun Lu Dah Kena Ban Tobattt!!`));
