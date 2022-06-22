@@ -27,17 +27,9 @@ const GoStumble = (auth) => new Promise((resolve, reject) => {
 
 (async () => {
 
-  console.log(chalk.green(`
-  ██▀███   ▄▄▄       ███▄    █   ▄████   ▄████  ▄▄▄      
-▓██ ▒ ██▒▒████▄     ██ ▀█   █  ██▒ ▀█▒ ██▒ ▀█▒▒████▄    
-▓██ ░▄█ ▒▒██  ▀█▄  ▓██  ▀█ ██▒▒██░▄▄▄░▒██░▄▄▄░▒██  ▀█▄  
-▒██▀▀█▄  ░██▄▄▄▄██ ▓██▒  ▐▌██▒░▓█  ██▓░▓█  ██▓░██▄▄▄▄██ 
-░██▓ ▒██▒ ▓█   ▓██▒▒██░   ▓██░░▒▓███▀▒░▒▓███▀▒ ▓█   ▓██▒
-░ ▒▓ ░▒▓░ ▒▒   ▓▒█░░ ▒░   ▒ ▒  ░▒   ▒  ░▒   ▒  ▒▒   ▓▒█░
-  ░▒ ░ ▒░  ▒   ▒▒ ░░ ░░   ░ ▒░  ░   ░   ░   ░   ▒   ▒▒ ░
-  ░░   ░   ░   ▒      ░   ░ ░ ░ ░   ░ ░ ░   ░   ░   ▒   
-   ░           ░  ░         ░       ░       ░       ░  ░
-                                                       
+  console.log(`Trophy And Crown Hack Safe! [ReEdit]
+By : ${chalk.bold('Rangga')} - Credit : Rangga Store 
+`);
 
   const auth = rs.question('Enter Authentication Code! : ');
   console.log('');
@@ -58,15 +50,12 @@ const GoStumble = (auth) => new Promise((resolve, reject) => {
       const trophy = data.User.SkillRating;
       const crown = data.User.Crowns;
 
-      console.log(chalk.red(`\r
--  [${moment().format('HH:mm:ss')}]  -
->  ${(`Negara  : ${country}`)}
->  ${(`Nama  : ${username}`)}  
->  ${(`Piala  : ${trophy}`)}  
->  ${(`Mahkota  : ${crown}`)}
->  ${(`Status : Success !`)}`));
-      await sleep(3000);
-
+console.log(chalk.bgBlack(`\r[ ${moment().format('HH:mm:ss')} ] 
+> ${chalk.red(`User : ${username}`)} 
+> ${chalk.yellow(`Trophy : ${trophy}`)}
+> ${chalk.green(`Crown : ${crown}`)}
+> ${(`Status : Success !`)}`));
+      await sleep(4500);
 
     } else if (result == 'Kasian') {
       console.log(chalk.bgRed(`Akun Lu Dah Kena Ban Tobattt!!`));
