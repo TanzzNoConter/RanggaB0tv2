@@ -25,11 +25,19 @@ const GoStumble = (auth) => new Promise((resolve, reject) => {
 
 });
 
-(async () => {
 
   (async () => {
-
-    console.log(`TROPHY DAN CROWN HACK BY [RANGGA] 
+   
+    console.log(chalk.red()`TROPHY DAN CROWN HACK BY [RANGGA]
+    ██▀███   ▄▄▄       ███▄    █   ▄████   ▄████  ▄▄▄      
+    ▓██ ▒ ██▒▒████▄     ██ ▀█   █  ██▒ ▀█▒ ██▒ ▀█▒▒████▄    
+    ▓██ ░▄█ ▒▒██  ▀█▄  ▓██  ▀█ ██▒▒██░▄▄▄░▒██░▄▄▄░▒██  ▀█▄  
+    ▒██▀▀█▄  ░██▄▄▄▄██ ▓██▒  ▐▌██▒░▓█  ██▓░▓█  ██▓░██▄▄▄▄██ 
+    ░██▓ ▒██▒ ▓█   ▓██▒▒██░   ▓██░░▒▓███▀▒░▒▓███▀▒ ▓█   ▓██▒
+    ░ ▒▓ ░▒▓░ ▒▒   ▓▒█░░ ▒░   ▒ ▒  ░▒   ▒  ░▒   ▒  ▒▒   ▓▒█░
+      ░▒ ░ ▒░  ▒   ▒▒ ░░ ░░   ░ ▒░  ░   ░   ░   ░   ▒   ▒▒ ░
+      ░░   ░   ░   ▒      ░   ░ ░ ░ ░   ░ ░ ░   ░   ░   ▒   
+       ░           ░  ░         ░       ░       ░       ░  ░
   `);
 
 const auth = rs.question(chalk.blue('Token : '));
