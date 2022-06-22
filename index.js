@@ -56,7 +56,7 @@ console.log('');
       >  ${(`Trophy  : ${trophy}`)}  
       >  ${(`Crown : ${crown}`)}
       >  ${(`Status : Success !`)}`));
-            await sleep(2000);
+            await sleep(6000);
 
     } else if (result == 'Kasian') {
       console.log(chalk.bgRed(`Akun Lu Dah Kena Ban Tobattt!!`));
