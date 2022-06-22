@@ -27,12 +27,20 @@ const GoStumble = (auth) => new Promise((resolve, reject) => {
 
 (async () => {
 
-  console.log(`Trophy And Crown Hack Safe! [ReEdit]
-By : ${chalk.bold('Rangga')} - Credit : Rangga Store 
+  console.log(chalk.red()`PUSH TROPHY DAN CROWN BY [RANGGA]]
+  ██▀███   ▄▄▄       ███▄    █   ▄████   ▄████  ▄▄▄      
+  ▓██ ▒ ██▒▒████▄     ██ ▀█   █  ██▒ ▀█▒ ██▒ ▀█▒▒████▄    
+  ▓██ ░▄█ ▒▒██  ▀█▄  ▓██  ▀█ ██▒▒██░▄▄▄░▒██░▄▄▄░▒██  ▀█▄  
+  ▒██▀▀█▄  ░██▄▄▄▄██ ▓██▒  ▐▌██▒░▓█  ██▓░▓█  ██▓░██▄▄▄▄██ 
+  ░██▓ ▒██▒ ▓█   ▓██▒▒██░   ▓██░░▒▓███▀▒░▒▓███▀▒ ▓█   ▓██▒
+  ░ ▒▓ ░▒▓░ ▒▒   ▓▒█░░ ▒░   ▒ ▒  ░▒   ▒  ░▒   ▒  ▒▒   ▓▒█░
+    ░▒ ░ ▒░  ▒   ▒▒ ░░ ░░   ░ ▒░  ░   ░   ░   ░   ▒   ▒▒ ░
+    ░░   ░   ░   ▒      ░   ░ ░ ░ ░   ░ ░ ░   ░   ░   ▒   
+     ░           ░  ░         ░       ░       ░       ░  ░
 `);
 
-  const auth = rs.question('Enter Authentication Code! : ');
-  console.log('');
+const auth = rs.question(chalk.blue('Token : '));
+console.log('');
 
   while (true) {
 
@@ -50,7 +58,7 @@ By : ${chalk.bold('Rangga')} - Credit : Rangga Store
       const trophy = data.User.SkillRating;
       const crown = data.User.Crowns;
 
-      console.log(chalk.red(`\r
+      console.log(chalk.green(`\r
       -  [${moment().format('HH:mm:ss')}]  -
       >  ${(`Nama  : ${username}`)}  
       >  ${(`Piala  : ${trophy}`)}  
