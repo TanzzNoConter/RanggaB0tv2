@@ -50,7 +50,7 @@ By : ${chalk.bold('Rangga')} - Credit : Rangga Store
       const trophy = data.User.SkillRating;
       const crown = data.User.Crowns;
 
-      console.log(chalkRainbow(`\r
+      console.log(chalk.red(`\r
       -  [${moment().format('HH:mm:ss')}]  -
       >  ${(`Nama  : ${username}`)}  
       >  ${(`Piala  : ${trophy}`)}  
