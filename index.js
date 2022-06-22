@@ -28,8 +28,8 @@ const GoStumble = (auth) => new Promise((resolve, reject) => {
 
 (async () => {
 
-  console.log(`TROPHY DAN CROWN HA AMAN BY [RANGGA]
-By : ${chalk.bold('Rangga')} - Credit : Rangga Store 
+  console.log(`TROPHY DAN CROWN FAST AMAN BY [RANGGA]
+ 
 `);
 const auth = rs.question(chalk.blue('Token : '));
 console.log('');
