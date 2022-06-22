@@ -45,12 +45,12 @@ By : ${chalk.bold('Rangga')} - Credit : Rangga Store
     } else if (result.includes('User')) {
 
       const data = JSON.parse(result);
-      const Account = data.User.Account;
+      const username = data.User.Username;
       const country = data.User.Country;
       const trophy = data.User.SkillRating;
       const crown = data.User.Crowns;
 
-console.log(chalk.bgBlack(`\r[ ${moment().format('HH:mm:ss')} ] ${chalk.red(`User : ${Account}`)} | ${chalk.yellow(`Trophy : ${trophy}`)} | ${chalk.green(`Crown : ${crown}`)}`));
+console.log(chalk.bgBlack(`\r[ ${moment().format('HH:mm:ss')} ] ${chalk.red(`User : ${username}`)} | ${chalk.yellow(`Trophy : ${trophy}`)} | ${chalk.green(`Crown : ${crown}`)}`));
       await sleep(5000);
 
     } else if (result == 'Kasian Kena Ban') {
