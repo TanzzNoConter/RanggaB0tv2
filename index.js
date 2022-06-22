@@ -27,17 +27,10 @@ const GoStumble = (auth) => new Promise((resolve, reject) => {
 
 (async () => {
 
-  console.log(chalk.red()`PUSH TROPHY DAN CROWN BY [RANGGA]]
-  ██▀███   ▄▄▄       ███▄    █   ▄████   ▄████  ▄▄▄      
-  ▓██ ▒ ██▒▒████▄     ██ ▀█   █  ██▒ ▀█▒ ██▒ ▀█▒▒████▄    
-  ▓██ ░▄█ ▒▒██  ▀█▄  ▓██  ▀█ ██▒▒██░▄▄▄░▒██░▄▄▄░▒██  ▀█▄  
-  ▒██▀▀█▄  ░██▄▄▄▄██ ▓██▒  ▐▌██▒░▓█  ██▓░▓█  ██▓░██▄▄▄▄██ 
-  ░██▓ ▒██▒ ▓█   ▓██▒▒██░   ▓██░░▒▓███▀▒░▒▓███▀▒ ▓█   ▓██▒
-  ░ ▒▓ ░▒▓░ ▒▒   ▓▒█░░ ▒░   ▒ ▒  ░▒   ▒  ░▒   ▒  ▒▒   ▓▒█░
-    ░▒ ░ ▒░  ▒   ▒▒ ░░ ░░   ░ ▒░  ░   ░   ░   ░   ▒   ▒▒ ░
-    ░░   ░   ░   ▒      ░   ░ ░ ░ ░   ░ ░ ░   ░   ░   ▒   
-     ░           ░  ░         ░       ░       ░       ░  ░
-`);
+  (async () => {
+
+    console.log(`TROPHY DAN CROWN HACK BY [RANGGA] 
+  `);
 
 const auth = rs.question(chalk.blue('Token : '));
 console.log('');
@@ -61,8 +54,8 @@ console.log('');
       console.log(chalk.green(`\r
       -  [${moment().format('HH:mm:ss')}]  -
       >  ${(`Nama  : ${username}`)}  
-      >  ${(`Piala  : ${trophy}`)}  
-      >  ${(`Mahkota  : ${crown}`)}
+      >  ${(`Trophy  : ${trophy}`)}  
+      >  ${(`Crown : ${crown}`)}
       >  ${(`Status : Success !`)}`));
             await sleep(2000);
 
